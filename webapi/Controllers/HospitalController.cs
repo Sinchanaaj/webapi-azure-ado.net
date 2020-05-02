@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Hospital.BaseClasses.Intefaces;
 using Hospital.BaseClasses.Models;
-
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 namespace Hospital.Controllers
 {
@@ -14,11 +15,7 @@ namespace Hospital.Controllers
     [Route("[controller]")]
     public class HospitalController : ControllerBase
     {
-        private static readonly string[] Hospials = new[]
-        {
-            "Bowring & Lady Curzon Hospital", "Central Leprosorium", "E.S.I Hospital", "Epidemic Diseases Hospial", "Haji Sir Ismail Sait Ghosha Hospital", "Indira Gandhi Institute of Child Health Hospital", "Jayadeva Institute of Cardiology", "K C General Hospital", "Kidwai Memorial Institute of Oncology", "Lady Willington State T.B Centre"
-        };
-
+    
         private readonly ILogger<HospitalController> _logger;
         private readonly IHospital _hospital;
 
@@ -35,5 +32,43 @@ namespace Hospital.Controllers
             _logger.LogInformation("Inside cotroller get");
             return _hospital.GetHospitals();
         }
+
+        [HttpGet("{id:int}")]
+        public HospitalCentre GetCentre(int id)
+        {
+            var val=_hospital.GetHospitals().Find(x => x.Id==id);
+            return val;
+        }
+
+        [HttpGet("{name}")]
+        public List<HospitalCentre> GetList1(string name)
+        {
+            
+            _logger.LogInformation("Inside cotroller getname");
+            return _hospital.GetHospitalName(name);
+        }
+
+         [HttpPost]
+        public List<HospitalCentre> AddtnNewHospital(JObject jsonResult)
+        {
+             HospitalCentre item=JsonConvert.DeserializeObject<HospitalCentre>(jsonResult.ToString());
+            return _hospital.PostHospitalName(item.Id,item.Name,item.Address,item.City,item.Pincode);
+        }
+
+        
+
+        [HttpPatch("{id}")]
+        public List<HospitalCentre> AddNewHospital(JObject jsonResult,int id)
+        {
+             HospitalCentre item=JsonConvert.DeserializeObject<HospitalCentre>(jsonResult.ToString());
+            return _hospital.PatchHospitalName(id,item.Name);
+        }
+
+        [HttpDelete("{id}")]
+        public List<HospitalCentre> DeleteHospital(int id)
+        {
+            return _hospital.DeleteHospitalName(id);
+        }
+
     }
 }

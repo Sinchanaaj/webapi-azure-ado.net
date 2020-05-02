@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Hospital.BaseClasses.Intefaces;
 using Hospital.BaseClasses.Models;
-using Hospital.DataAccess.SqlLite;
+using Hospital.DataAccess.AzureSql;
 
 namespace Hospital
 {
@@ -33,7 +33,8 @@ namespace Hospital
             services.AddControllers();
             //services.AddScoped<IHospital>(sh => new SqlLiteHospital("Connectionstring"));
             string sqlConfigString = Configuration.GetValue<string>("SqlConnectionString");            
-            services.AddScoped<IHospital>(sh => new SqlLiteHospital(sqlConfigString));
+            services.AddScoped<IHospital>(sh => new AzHospital(sqlConfigString));
+            services.AddMvcCore().AddNewtonsoftJson();
             services.AddHealthChecks()
                     .AddCheck<ExHealthCheck>("ex_health_check");
         }

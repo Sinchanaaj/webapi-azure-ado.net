@@ -6,7 +6,14 @@ namespace Hospital.BaseClasses.Intefaces
 {
     public interface IHospital
     {
-        List<HospitalCentre> GetHospitals();
-        HospitalCentre GetHospital(int id);
+         List<HospitalCentre> GetHospitals();
+
+        List<HospitalCentre> GetHospitalName(string name);
+
+        List<HospitalCentre> PostHospitalName(int id,string name,string address,string city,int pincode);
+
+        List<HospitalCentre> PatchHospitalName(int id,string name);
+
+        List<HospitalCentre> DeleteHospitalName(int id);
     }
 }

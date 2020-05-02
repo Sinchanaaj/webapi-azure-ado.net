@@ -1,0 +1,9 @@
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\bin\Debug\netstandard2.0\Hospital.BaseClasses.deps.json
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\bin\Debug\netstandard2.0\Hospital.BaseClasses.dll
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\bin\Debug\netstandard2.0\Hospital.BaseClasses.pdb
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\obj\Debug\netstandard2.0\Hospital.BaseClasses.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\obj\Debug\netstandard2.0\Hospital.BaseClasses.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\obj\Debug\netstandard2.0\Hospital.BaseClasses.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\obj\Debug\netstandard2.0\Hospital.BaseClasses.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\obj\Debug\netstandard2.0\Hospital.BaseClasses.dll
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.BaseClasses\obj\Debug\netstandard2.0\Hospital.BaseClasses.pdb

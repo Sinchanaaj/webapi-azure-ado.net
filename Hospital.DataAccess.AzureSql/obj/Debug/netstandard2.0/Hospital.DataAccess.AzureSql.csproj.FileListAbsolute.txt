@@ -1,0 +1,12 @@
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\bin\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.deps.json
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\bin\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.dll
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\bin\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.pdb
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\bin\Debug\netstandard2.0\Hospital.BaseClasses.dll
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\bin\Debug\netstandard2.0\Hospital.BaseClasses.pdb
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\obj\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\obj\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\obj\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\obj\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\obj\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.csproj.CopyComplete
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\obj\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.dll
+C:\Users\LENOVO\Documents\Demo\aksistio\Naseem\a1\aksistio-hospital\Hospital.DataAccess.AzureSql\obj\Debug\netstandard2.0\Hospital.DataAccess.AzureSql.pdb
