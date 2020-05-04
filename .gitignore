@@ -27,3 +27,4 @@ Vagrantfile
 controlpass.ps1
 istio-1.4.0*
 istio-1.4.0.zip
+appsettings.json
